@@ -18,3 +18,9 @@ python lxb_parser.py /path/to/lxb/files /path/to/save.csv
 ```
 
 If the filepath for saving the DataFrame as a CSV is not provided, it will default to saving the data as "luminex_data.csv" in the current directory.
+
+## Dependencies
+
+* numpy >= 1.19
+* pandas >= 1.2
+* flowio >= 0.9
